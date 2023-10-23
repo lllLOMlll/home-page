@@ -1,0 +1,176 @@
+@media only screen and (max-width: 767px){
+
+	/**************************************************************************
+	 **** HTML ELEMENTS ******************************************************
+	 *************************************************************************/
+
+	html body {
+		width: 767px;
+	}
+
+	/* Influence "About us", "Services" and "Latest news" */
+	div {
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		width: 767px;
+	}
+
+
+	/**************************************************************************
+	 **** AJUSTING WIDTH ******************************************************
+	 *************************************************************************/
+	#container {
+		width: 767px;
+	}
+
+	.container {
+		width: 767px;
+	}
+
+
+	/**************************************************************************
+	 **** HEADER **************************************************************
+	 *************************************************************************/
+	header {
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		width: 767px;
+	}
+
+	/* Navigation menu */
+	nav {
+		left: 145px; /* To center the menu */
+		top: 100px;
+	}
+
+	/* Minimalis. */
+	#logo {
+		top: 0px;
+		margin-bottom: -45px;
+		left: 25px;
+	}
+	
+	#intro {
+		width: 767px;
+	}
+	
+	h1 {
+		margin-top: 50px;
+		margin-left: 170px; /* Center que da Vinci quote */
+	}
+
+
+
+	/**************************************************************************
+	 **** GROUP 1, 2, 3 *******************************************************
+	 *************************************************************************/
+	.holder_content {
+		margin-top: 135px;
+	}
+
+	/* Text under the citation of Leonard da Vinci */
+	h2 {
+		text-align: center;
+		padding-left: 101px;
+		padding-right: 37px;
+		margin-top: 30px;
+		font-size: 14px;
+	}
+
+	/* Position relative to control the item of the holder_content  */
+	.holder_content {
+		position: relative;
+
+	}
+	.group1 {
+		width: 767px;
+		margin-top: 25px;
+		margin-left: 30px;
+	}
+
+	.group2 {
+		width: 767px;
+	}
+
+	.group3 {
+		width: 767px;
+		margin-left: 30px;
+		margin-bottom: -100px;
+	}
+
+
+	h3 {
+		margin-left: 50px;
+	}
+
+	a img {
+		margin-top: -95px;
+	}
+
+	a.photo_hover3 {
+		margin: -65px 13px 8px 50px;
+		padding-top: 105px;
+	}
+
+p {
+    position: relative;
+    margin-top: 39px;
+    margin-left: 340px;
+    margin-right: 76px;
+    margin-bottom: -40px;
+    transform: translateY(25px);
+}
+
+	.button {
+		margin-left: 20px;
+		margin-top: 95px;
+	}
+
+	/**************************************************************************
+	 **** GROUP 4 *************************************************************
+	 *************************************************************************/
+	.group4 {
+		width: 767PX;
+		display: grid;	   
+	}
+
+	h4 {
+		margin-left: 65px;
+		margin-bottom: -30px;
+	}
+
+	.group4 p {
+		position: relative;
+		margin: 45px 65px -30px 65px;
+		font-size: 12px;
+	}
+
+	.group4 h3 {
+		margin-left: 65px;
+	}
+
+
+
+	/**************************************************************************
+	 **** FOOTER *************************************************************
+	 *************************************************************************/
+	footer {
+		margin-top: 70px;
+	}
+
+	#FooterOne, #FooterTwo, #FooterTree {
+		position: absolute;	
+	}
+
+	#FooterTwo {
+		position: absolute;
+		left: 300px;
+	}
+
+	#FooterTree {
+		display: inline-block;
+		left: 35px;
+	}
+}
